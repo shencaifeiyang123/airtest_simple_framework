@@ -1,0 +1,3 @@
+# 简化版Airtest测试框架依赖
+airtest
+pocoui

@@ -1,0 +1,39 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+ENV/
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ===== Airtest 框架运行产物 =====
+# 日志（每次执行都会生成）
+logs/
+# 测试报告（HTML、截图等大文件，体量大）
+report/
+# Airtest 缓存
+*.log
+log.txt
+
+# ===== 其他 =====
+*.tmp
+*.bak
+.coverage
+htmlcov/
